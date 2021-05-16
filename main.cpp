@@ -1,8 +1,8 @@
 #include <iostream>
 #include "bst.h"
-#include "type.h"
 
 using namespace std;
+typedef int T1;
 int main()
 {
   CBinaryTree<T1>(obj);
