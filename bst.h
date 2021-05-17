@@ -98,9 +98,9 @@ void CBinaryTree<T>:: print2(Node *&rParent)//v1.2 Maizo, se duplico la func pri
   if (rParent==nullptr)
     return;
 
-  print1(rParent->m_pChild[1]);
+  print2(rParent->m_pChild[1]);
   cout<<rParent->getData()<<endl;
-  print1(rParent->m_pChild[0]);
+  print2(rParent->m_pChild[0]);
 }
 
 #endif //Maizo Diego  
